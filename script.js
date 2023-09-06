@@ -75,7 +75,7 @@ async function loadCharacters(url) {
       mainContent.appendChild(card);
 
     });
-
+    
     // Habilita ou desabilita os botões de acordo com a presença de URLs de próxima e página anterior
     const nextButton = document.getElementById('next-button');
     const backButton = document.getElementById('back-button');
