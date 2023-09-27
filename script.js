@@ -7,7 +7,7 @@ window.onload = async () => {
     console.log(error);
     alert('Erro ao carregar cards');
   }
-
+ 
   const nextButton = document.getElementById('next-button');
   nextButton.addEventListener('click', loadNextPage);
 
