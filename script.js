@@ -14,7 +14,7 @@ window.onload = async () => {
   const backButton = document.getElementById('back-button');
   backButton.addEventListener('click', loadPreviousPage);
 };
-
+ 
 async function loadCharacters(url) {
   const mainContent = document.getElementById('main-content');
   mainContent.innerHTML = ''; // Limpa os resultados anteriores
